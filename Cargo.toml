@@ -1,0 +1,13 @@
+[package]
+name = "spellcheck-cli"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "spellcheck"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.6.9", features = ["derive"] }
+owo-colors = "4.4.0"
+symspell = "0.5.2"
